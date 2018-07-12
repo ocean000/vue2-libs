@@ -1,0 +1,40 @@
+{
+  "name": "vue2-libs",
+  "version": "1.0.3",
+  "description": "vue2 app libraies",
+  "author": "Ocean",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ocean000/vue2-libs.git"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "main": "dist/bundle.js",
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "axios": "^0.15.3",
+    "jsonp": "^0.2.1",
+    "vue": "2.3.4",
+    "vue-router": "^2.2.0",
+    "vuex": "^2.1.1",
+    "vuex-i18n": "^1.3.1",
+    "libs-core": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-env": "^1.6.1",
+    "rollup": "^0.51.8",
+    "rollup-plugin-babel": "^3.0.3",
+    "rollup-plugin-uglify": "^2.0.1"
+  },
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  }
+}

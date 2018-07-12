@@ -1,0 +1,9 @@
+.DS_Store
+.idea/
+*.zip
+
+node_modules/
+dist/
+local-data/
+npm-debug.log
+npm-debug.log.*
